@@ -1,27 +1,30 @@
 function gradingSystem (numbers) {
+
+    let grade = 0;
+
     if (numbers > 100) {
-        var grade = "Wrong Input";
+        grade = "Wrong Input";
     }
     else if (numbers >= 80) {
-        var grade = "A+";
+        grade = "A+";
     }
     else if (numbers >= 70) {
-        var grade = "A";
+        grade = "A";
     }
     else if (numbers >= 60) {
-        var grade = "A-";
+        grade = "A-";
     }
     else if (numbers >= 50) {
-        var grade = "B";
+        grade = "B";
     }
     else if (numbers >= 40) {
-        var grade = "C";
+        grade = "C";
     }
     else if (numbers >= 33) {
-        var grade = "D";
+        grade = "D";
     }
     else {
-        var grade = "F";
+        grade = "F";
     }
 
     return grade;
